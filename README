@@ -1,45 +1,44 @@
-# Python Learning Roadmap
+ Python Learning Roadmap
 
 This repository is a beginner-friendly Python learning path covering the core concepts needed to build a strong foundation in programming.
 
-# 1. Python Basics
+1. Python Basics
 
 - Understanding Python syntax, variables, identifiers, and keywords.
 - Learning built-in data types and type conversion.
 - Taking user input and displaying output.
 
-# 2. Conditions & Loops
+2. Conditions & Loops
 
  Using if, elif, and else for decision making.
 - Practicing for and while loops.
 - Using break, continue, and pass.
 
-# 3. Strings
+ 3. Strings
 
 - Working with indexing, slicing, and string methods.
 - Formatting strings using f-strings.
 - Practicing common string problems.
-
-## 4. Core Data Structures
+ 4. Core Data Structures
 
 - Understanding lists, tuples, sets, and dictionaries.
 - Learning their characteristics and common use cases.
 - Practicing accessing, updating, adding, and removing elements.
 
-## 5. Functions
+5. Functions
 
 - Creating and calling functions.
 - Working with parameters, arguments, and return values.
 - Practicing reusable functions with simple problems.
 
-## 6. Git & GitHub
+6. Git & GitHub
 
 - Learning to initialize a Git repository and track project changes.
 - Using `git add`, `git commit`, and `git push` to manage code.
 - Connecting the local project with a GitHub repository and pushing updates.
 
 
-## Learning Order
+Learning Order
 
 1. Start with Python basics and syntax.
 2. Practice conditions and loops.
@@ -47,4 +46,3 @@ This repository is a beginner-friendly Python learning path covering the core co
 4. Write reusable functions.
 5. Work with Git and GitHub for version control.
 
-#
