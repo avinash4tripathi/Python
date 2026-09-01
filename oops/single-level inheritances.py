@@ -14,7 +14,7 @@ ob1.greet()
 
 
 class car():
-    model = "Fortuer"
+    model = "Fortuner"
     def feature(self):
         print("Legacy")
 
