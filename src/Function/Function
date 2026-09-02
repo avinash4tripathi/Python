@@ -36,7 +36,7 @@ fist_value = ([25,63,560])
 
 #create a function to count vowels?
 def count_vowels(s):
-    #s = eval(input("enter the vowels:"))
+    s = eval(input("enter the vowels:"))
     count = 0
     for i in s.lower():
              if i in 'aioue':
