@@ -1,8 +1,8 @@
-# Python Learning Repository
+ Python Learning Repository
 
 A structured collection of Python examples, exercises, and Jupyter notebooks for building a strong foundation in Python programming. The material progresses from basic syntax and problem-solving to functional programming, generators, and object-oriented programming.
 
-## Repository Overview
+Repository Overview
 
 The examples are organized by topic so that each concept can be studied and practiced independently. Most scripts are small, interactive programs intended for learning rather than production use.
 
