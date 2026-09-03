@@ -1,0 +1,6 @@
+numpy
+python-dateutil
+six
+tzdata
+pandas
+seaborn
