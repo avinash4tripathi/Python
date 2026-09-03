@@ -45,31 +45,6 @@ Constructors, encapsulation, abstraction, and inheritance (single, multilevel, a
 ### 🚀 Advanced Python
 `super()` and constructor chaining, magic/dunder methods (`__str__`, `__getitem__`, `__setitem__`, etc.), and method chaining / fluent interfaces.
 
----
-
-## 📂 Project Structure
-
-The repository is organized topic-wise under the `src` directory:
-
-```
-Python/
-├── src/
-│   ├── Python-basics/
-│   ├── Datatype/
-│   ├── Coditional-statement/
-│   ├── looping/
-│   ├── Break,Pass,Continue/
-│   ├── Function/
-│   ├── HOF(Higher Order Function)/
-│   ├── Genrators/
-│   ├── oops/
-│   └── Advance-Python/
-├── README.md
-└── requirements.txt
-```
-
-> Folder names reflect the current repository structure and may be cleaned up over time to follow consistent Python naming conventions.
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -97,11 +72,6 @@ python -m venv venv
 **Windows**
 ```bash
 venv\Scripts\activate
-```
-
-**macOS / Linux**
-```bash
-source venv/bin/activate
 ```
 
 ### 6. Install Dependencies
@@ -135,19 +105,7 @@ Install them all with:
 pip install -r requirements.txt
 ```
 
----
 
-## 🧹 Coding Practices
-
-* Follow **PEP 8** guidelines.
-* Use meaningful variable and function names.
-* Keep functions small and focused.
-* Avoid unnecessary code duplication.
-* Use **type hints** and meaningful **docstrings** where appropriate.
-* Use **f-strings** for string formatting.
-* Handle errors appropriately and keep dependencies documented.
-
----
 
 ## 🧠 Learning Methodology
 
