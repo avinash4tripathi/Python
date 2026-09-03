@@ -1,59 +1,12 @@
-# 🐍 Python — Learning & Practice Repository
+# Python Learning Repository
 
-<p align="center">
-  <strong>A structured Python learning repository covering fundamentals, problem-solving, functional programming, generators, OOP, and advanced Python concepts.</strong>
-</p>
+A structured collection of Python examples, exercises, and Jupyter notebooks for building a strong foundation in Python programming. The material progresses from basic syntax and problem-solving to functional programming, generators, and object-oriented programming.
 
-<p align="center">
+## Repository Overview
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
-![Learning](https://img.shields.io/badge/Purpose-Learning%20%26%20Practice-green)
-![License](https://img.shields.io/badge/License-Educational-lightgrey)
+The examples are organized by topic so that each concept can be studied and practiced independently. Most scripts are small, interactive programs intended for learning rather than production use.
 
-</p>
-
----
-
-## 📖 About This Repository
-
-This repository is a **structured Python learning and practice project** created to build strong programming fundamentals and gradually progress toward advanced Python development.
-
-The repository contains topic-wise programs and exercises covering:
-
-* Python fundamentals
-* Data types
-* Conditional statements
-* Loops and flow control
-* Functions
-* Higher-Order Functions
-* Generators
-* Object-Oriented Programming
-* Advanced Python concepts
-
-The goal is to learn concepts **theoretically, implement them practically, and continuously improve coding quality**.
-
----
-
-## 📑 Table of Contents
-
-* [About This Repository](#-about-this-repository)
-* [Topics Covered](#-topics-covered)
-* [Project Structure](#-project-structure)
-* [Learning Roadmap](#-learning-roadmap)
-* [Getting Started](#-getting-started)
-* [Virtual Environment](#-virtual-environment)
-* [Package Management](#-package-management)
-* [Coding Practices](#-coding-practices)
-* [Learning Methodology](#-learning-methodology)
-* [Future Roadmap](#-future-roadmap)
-* [Author](#-author)
-* [Support](#-support)
-
----
-
-## 📚 Topics Covered
+## Topics Covered
 
 ### 🐍 Python Basics
 
