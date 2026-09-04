@@ -1,9 +1,14 @@
 class school:
-    sub1 = 'math'
+    sub1 = "math"
+
+
 class Bachelor(school):
-    sub2= 'chemistry'
+    sub2 = "chemistry"
+
+
 class master(Bachelor):
-    sub3='computer Science'
+    sub3 = "computer Science"
+
 
 ob1 = master()
 print(ob1.sub1)

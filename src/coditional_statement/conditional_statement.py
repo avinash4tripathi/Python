@@ -1,11 +1,11 @@
 # WAP to check the Character is in Uppercase?
 Char = input("enter the character: ")
-if 'A'<=Char<='Z':
+if "A" <= Char <= "Z":
     print("Uppercase")
 else:
     print("lowecase")
 
-#Age Check (If-else)
+# Age Check (If-else)
 age = 16
 
 if age >= 18:
@@ -13,7 +13,7 @@ if age >= 18:
 else:
     print("Not Eligible")
 
-#Nested-if
+# Nested-if
 age = 20
 has_id = True
 

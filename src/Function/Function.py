@@ -1,230 +1,292 @@
-#craete a function to get the sum of two values?
+# craete a function to get the sum of two values?
 def add():
     a = int(input("enter the values"))
     b = int(input("enter the values"))
-    print(a+b)
+    print(a + b)
+
+
 add()
+
 
 # create a function to get the square of the number?
 def Square():
     a = int(input("enter the values"))
-    print("square is :",a*a)
+    print("square is :", a * a)
+
+
 Square()
 
-def add(a,b):
-    print(a+b)
 
-add(12,15)
+def add(a, b):
+    print(a + b)
+
+
+add(12, 15)
+
 
 def square(a):
     print(a**2)
 
+
 square(4)
 
-#create a function to get  the last value of the first?
+
+# create a function to get  the last value of the first?
 def last_value(list1):
     print(list[-1])
 
-last_value = ([10,20,30])
-last_value = (['hii',2.3,9-5j])
+
+last_value = [10, 20, 30]
+last_value = ["hii", 2.3, 9 - 5j]
+
 
 # craete the function to get the first value of the first?
 def first_value(list1):
     print(list1.pop(0))
 
-fist_value = ([25,63,560])
 
-#create a function to count vowels?
+fist_value = [25, 63, 560]
+
+
+# create a function to count vowels?
 def count_vowels(s):
     s = eval(input("enter the vowels:"))
     count = 0
     for i in s.lower():
-             if i in 'aioue':
-              count += 1
+        if i in "aioue":
+            count += 1
     return count
+
+
 print(count_vowels("Eduaction is very powerfull tool"))
 
 
-#Count digit of number?
+# Count digit of number?
+
 
 def count_digit(s):
     count = 0
-    for digit in  str(s):
+    for digit in str(s):
         count += 1
     return count
 
+
 print(count_digit(1000000))
 
-#reverse number without using slising
+# reverse number without using slising
+
 
 def revers_number(n):
     rev = 0
     for i in str(n):
-      digit = n%10
-      rev = rev*10 + digit
-      n //= 10
+        digit = n % 10
+        rev = rev * 10 + digit
+        n //= 10
     return rev
+
 
 print(revers_number(123456))
 
 
-#fact of a number
+# fact of a number
 def fact_number(n):
     fact = 1
-    for i in range(1,n+1):
+    for i in range(1, n + 1):
         fact *= i
     return fact
-print(fact_number(5))  
+
+
+print(fact_number(5))
 
 
 # Sum of digit of a number?
 def sumof_digit(n):
     total = 0
     for i in str(n):
-        total += n%10
+        total += n % 10
         n //= 10
     return total
+
+
 print(sumof_digit(1234))
 
 
-#fact
+# fact
 def fact_number(n):
     fact = 1
-    for i in range(1,n+1):
-     fact *= i
+    for i in range(1, n + 1):
+        fact *= i
     return fact
+
+
 print(fact_number(25))
 
-#reverse number without usind slicing?
+
+# reverse number without usind slicing?
 def reverse_number(n):
     rev = 0
     for digit in str(n):
-        digit = n%10
-        rev = rev*10 + digit
-        n //=10
+        digit = n % 10
+        rev = rev * 10 + digit
+        n //= 10
     return rev
+
+
 print(reverse_number(12345))
 
-#count digit of number?
+
+# count digit of number?
 def count_number(n):
     count = 0
     for i in str(n):
         count += 1
     return count
+
+
 print(count_number(123456))
 
-#sum of digit?
+
+# sum of digit?
 def sumof_digiit(n):
     total = 0
     for i in str(n):
-        total += n%10
+        total += n % 10
         n //= 10
     return total
+
+
 print(sumof_digit(12345))
+
 
 # fact
 def fact_number(n):
-   fact = 1
-   for i in range(1,n+1):
-     fact *= i
-   return fact
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    return fact
+
+
 print(fact_number(5))
 
 
-#sum of digit ?
+# sum of digit ?
 def sum_digit(n):
     total = 0
     for i in str(n):
-        total += n%10
-        n//=10
+        total += n % 10
+        n //= 10
     return total
+
+
 print(sum_digit(123456))
 
-#fact
+
+# fact
 def fact_number(n):
     fact = 1
-    for i in range(1,n+1):
+    for i in range(1, n + 1):
         fact *= i
     return fact
+
+
 print(fact_number(10))
 
-#rev number?
+
+# rev number?
 def revers_number(n):
     rev = 0
     for i in str(n):
-      digit = n%10
-      rev = rev*10 + digit
-      n //= 10
+        digit = n % 10
+        rev = rev * 10 + digit
+        n //= 10
     return rev
+
 
 print(revers_number(123456))
 
 
-#colection of iteam?
+# colection of iteam?
 def length_count(n):
     count = 0
     for i in str(n):
-      count += 1
-    
+        count += 1
+
+
 print(length_count(1234))
+
 
 def count_digit(n):
     count = 0
     for i in str(n):
         count += 1
-    print("number of digit=",count)
-    
+    print("number of digit=", count)
+
+
 count_digit(12345)
 
 
-#using while condition?
+# using while condition?
 def count_digit(n):
     n = abs(n)
     count = 0
-    while n>0:
-        n//=10
+    while n > 0:
+        n //= 10
         count += 1
-    print("number of digit",count)
+    print("number of digit", count)
+
+
 count_digit(-123456)
+
 
 # print the number to find the vowels.
 def count_vowels(n):
- count = 0
- for i in n.lower():
-    if i in 'aioue':
-     count += 1
- return count
+    count = 0
+    for i in n.lower():
+        if i in "aioue":
+            count += 1
+    return count
+
+
 print(count_vowels("Aviansh Tripathi"))
 
-#fcaorial of a number?
+
+# fcaorial of a number?
 def fact_number(n):
     fact = 1
-    for i in range(1,n+1):
+    for i in range(1, n + 1):
         fact *= i
         print(fact)
+
+
 fact_number(10)
 
 
-#creat a function which returns the square of teb number?
+# creat a function which returns the square of teb number?
 def square_number(n):
     return n**2
+
+
 print(square_number(5))
+
 
 # get float values?
 def get_values(num):
-    list1 = str(num).split('.')
+    list1 = str(num).split(".")
     return list1[-1]
+
 
 res = get_values(34.548)
 print(res)
 
-#Return the sum of values in a list?
-#sum of list_([10,20,30,40])
+
+# Return the sum of values in a list?
+# sum of list_([10,20,30,40])
 def sum_list(list1):
     total = 0
     for i in list1:
         total += i
     return total
+
 
 # chevk the number is palindrom or not/
 def is_palindrom(num):
@@ -232,5 +294,5 @@ def is_palindrom(num):
         return True
     return False
 
-print(is_palindrom(121 ))
 
+print(is_palindrom(121))

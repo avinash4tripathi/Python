@@ -8,7 +8,7 @@
 class Bye(demo):
     def __init__(self, name, adders,subject,rollno,email):
         super().__init__(name, adders,subject,rollno)
-        self.email= email 
+        self.email= email
 
 ob1 = Bye('Aviash','Noida','Maths',2205080130016,'tripathiavinash@gmail.com')
 print(ob1.name)
@@ -24,10 +24,12 @@ class main:
 
     def greet(self):
         print("hii GoodAfternooon")
-    
+
+
 class myclass(main):
     def show(self):
         print("This is my class")
+
 
 ob1 = myclass()
 ob1.greet()
