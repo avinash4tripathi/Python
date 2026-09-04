@@ -18,34 +18,34 @@ The examples are organized by topic under `src/`, so each concept can be studied
 
 ## Topics Covered
 
-### 🐍 Python Basics
+###  Python Basics
 Introduces the syntax and rules used to write Python programs — variables, input/output, operators, numbers, Boolean values, strings, and small programming problems. These fundamentals are the building blocks for every later topic.
 
-### 🔢 Data Types
+###  Data Types
 Covers numbers and strings alongside collection types such as lists, tuples, sets, and dictionaries, including indexing, slicing, and common operations used to access and modify collections.
 
-### 🔀 Conditional Statements
+###  Conditional Statements
 The `if`, `elif`, and `else` statements test conditions, while nested conditions handle decisions inside other decisions.
 
-### 🔁 Loops & Flow Control
+###  Loops & Flow Control
 A `for` loop iterates over a sequence, and a `while` loop continues while a condition remains true. Nested loops handle repeated work at multiple levels, and `break`, `continue`, and `pass` control loop execution.
 
-### 🧩 Functions
+###  Functions
 Covers Python's built-in functions as well as user-defined functions, parameters, arguments, and return values — breaking a problem into functions that are easier to test, understand, and reuse.
 
-### ⚡ Higher-Order Functions
+###  Higher-Order Functions
 Functions treated like other values: `map()` to transform values, `filter()` to select values, and `reduce()` to combine values into one result.
 
-### 🔄 Generators
+###  Generators
 Generator functions using `yield`, and generator expressions, covering lazy evaluation and why generators are useful for large or ongoing sequences.
 
-### 🏗️ Object-Oriented Programming (OOP)
+###  Object-Oriented Programming (OOP)
 Constructors, encapsulation, abstraction, and inheritance (single, multilevel, and multiple), plus polymorphism, duck typing, method overriding, operator overriding, and method overloading.
 
-### 🚀 Advanced Python
+###  Advanced Python
 `super()` and constructor chaining, magic/dunder methods (`__str__`, `__getitem__`, `__setitem__`, etc.), and method chaining / fluent interfaces.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -87,7 +87,7 @@ python filename.py
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 This repo's `requirements.txt` currently includes:
 
@@ -107,14 +107,14 @@ pip install -r requirements.txt
 
 
 
-## 🧠 Learning Methodology
+##  Learning Methodology
 
 ```
 Understand → Study Examples → Write Code → Modify Code
     → Solve Problems → Debug Errors → Refactor → Apply Best Practices
 ```
 
-## 📊 Repository Progress
+## Repository Progress
 
 | Area                   | Status     |
 | ---------------------- | ---------- |
@@ -142,14 +142,14 @@ This repository represents an ongoing journey of learning Python, strengthening 
 
 ---
 
-## 🔗 Repository
+##  Repository
 
 **GitHub:** https://github.com/avinash4tripathi/Python
 
 ---
 
 <p align="center">
-  <strong>Keep Learning • Keep Practicing • Keep Building 🚀</strong>
+  <strong>Keep Learning • Keep Practicing • Keep Building </strong>
 </p>
 
 
