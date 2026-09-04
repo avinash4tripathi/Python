@@ -114,6 +114,21 @@ Understand → Study Examples → Write Code → Modify Code
     → Solve Problems → Debug Errors → Refactor → Apply Best Practices
 ```
 
+## Today's Work
+
+### File Handling Project
+
+- Created a menu-driven Python program for basic file management.
+- Added options to create, read, update, and delete files.
+- Used the `pathlib` module to work with file and folder paths.
+- Used the `os` module to remove files from the system.
+- Added functions to keep each file operation organized and reusable.
+- Practiced taking file names and content from the user through input.
+- Added checks to verify whether a file exists before reading, updating, or deleting it.
+- Practiced exception handling with `try-except` blocks to manage errors.
+- Improved understanding of file modes such as read, write, and append.
+- This project strengthened practical knowledge of Python functions, conditions, user input, and file management.
+
 ## Repository Progress
 
 | Area                   | Status     |
