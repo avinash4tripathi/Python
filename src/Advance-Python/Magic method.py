@@ -4,11 +4,11 @@ class person:
         self.age =  age
 
     def __str__(self):
-        return f"person name is {self.name} age is {self.age}"
+        return f"person name is {self.name} my age is {self.age}"
     
 ob1 = person('jai',26)
 ob2 = person('Shivam',24)
-print(ob2)
+print(ob1)
 
 
 class demo:

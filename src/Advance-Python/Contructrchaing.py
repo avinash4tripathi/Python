@@ -8,7 +8,7 @@ class SBI(GraminBank):
         self.email= email 
     
 C1 = SBI('Abhisek','jaipur','Abhi@gmail.com')
-C2 = GraminBank('Avi','nopida','Avin')
+C2 = GraminBank('Avi','noida')
 
 print(C1.name)
 print(C1.addres)
@@ -26,7 +26,7 @@ class demo:
 
 class Bye(demo):
     def __init__(self, name, adders,subject,rollno,email):
-        super().__init__(name, adders,subject,rollno)
+        super().__init__(name,adders,subject,rollno)
         self.email= email 
 
 ob1 = Bye('Aviash','Noida','Maths',2205080130016,'tripathiavinash@gmail.com')
