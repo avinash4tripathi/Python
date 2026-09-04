@@ -1,3 +1,5 @@
+# Encapsulation is the Phenomena of wraping the data and method in a single unit.
+
 class demo:
     __a = 10
     b = 20

@@ -1,3 +1,7 @@
+#Abstratioin means hidding unnecessary implemention detils and showing only the essentiaal functionsclalties
+# python commonely used ABC module for abstraction.
+
+
 from abc import ABC,abstractmethod
 class vehical(ABC):
     @abstractmethod
@@ -20,3 +24,4 @@ class AudiR8(vehical):
 
 ob1 = AudiR8()
 ob1.light_check()
+ob1.enginne_Check()
