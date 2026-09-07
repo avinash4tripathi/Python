@@ -1,3 +1,4 @@
+# it is combination of file handeling + logging + exception handelling.
 import json
 import logging
 
@@ -20,3 +21,4 @@ try:
 
 except OSError as error:
     logging.error("Failed to save student data: %s", error)
+
