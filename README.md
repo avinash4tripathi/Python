@@ -148,7 +148,7 @@ Understand → Study Examples → Write Code → Modify Code
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 ### Avinash Kumar Tripathi
 **Python Learner | Software Development | Data Analytics**
